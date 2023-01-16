@@ -11,6 +11,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  min-width: 1440px;
 }
 h1,
 h2,
@@ -26,9 +27,12 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 button {
   cursor: pointer;
+  border-color: transparent;
 }
 
 .list {
@@ -53,7 +57,7 @@ button {
 }
 
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
